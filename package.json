@@ -1,0 +1,16 @@
+{
+  "name": "damage-reports",
+  "version": "1.0.0",
+  "description": "Minimal Damage Report management system (in-memory)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server-refactored.js",
+    "start:legacy": "node server.js"
+  },
+  "dependencies": {
+    "bidi-js": "^1.0.3",
+    "express": "^4.19.2",
+    "pdfkit": "^0.19.1"
+  }
+}
